@@ -43,7 +43,7 @@ const Weather = () => {
             }
         try
         {
-            const apiID = import.meta.env.VITE_API_ID
+            const apiID = "4a94387205a34905e83ae10307bc7670"
             const url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiID}`
 
             const response = await fetch(url)

@@ -1,0 +1,25 @@
+.main{
+    border: 2px solid;
+}
+input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;   
+    background-color: rgb(54, 64, 145); 
+    color: white;
+}
+ input::placeholder{
+    color: white;   
+}
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+.main{
+    border-radius: 30px;
+    border-color: white;
+}
